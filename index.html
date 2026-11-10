@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title></title><link rel="stylesheet" href="style.css"></head>
+<body>
+<svg class="filters" aria-hidden="true"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="7" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2"/></filter></svg>
+<main id="game">
+ <div id="scene" class="scene home"></div><div class="vignette"></div><div id="scene-fade" aria-hidden="true"></div><div class="grain"></div>
+ <img id="companion" class="actor companion" alt="" hidden>
+ <img id="actor" class="actor" alt="" hidden>
+ <header><div class="scene-heading"><span id="chapter"></span><small id="location" hidden></small></div><nav><button id="save" data-t="save"></button><button id="load" data-t="load"></button><button id="archive" data-t="archive"></button><button id="history" data-t="history"></button><button id="settings" data-t="settings"></button></nav></header>
+ <section id="title-screen" class="title-screen"><div class="title-card"><span class="edition">017 / NOVEMBER</span><div class="rule"></div><p data-t="subtitle"></p><h1><span data-t="titleFirst"></span><br><span data-t="titleSecond"></span></h1><span class="red-star">✦</span><div class="rule"></div><p data-t="part"></p><div class="title-actions"><button id="start" class="paper-button" data-t="start"></button><button id="resume" data-t="continue" hidden></button><button id="checkpoint" data-t="checkpoint"></button></div><small data-t="about"></small></div><figure class="title-photo"><img src="assets/funeral-photo-first.png" alt=""><figcaption data-t="warning"></figcaption></figure></section>
+ <section id="reading" hidden><button id="evidence" class="evidence" hidden><img src="assets/funeral-photo-first.png" alt=""><span id="evidence-name"></span></button><div class="reading-dock"><div id="choices" class="choices" hidden></div><article id="dialogue" class="dialogue" tabindex="0"><span id="speaker" class="speaker"></span><p id="text" aria-hidden="true"></p><p id="accessible-text" class="sr-only" aria-live="polite"></p><footer><small id="hint"></small><button id="next"><span data-t="next"></span><b>◇</b></button></footer></article></div></section>
+ <div id="toast" class="toast" role="status"></div>
+</main>
+<dialog id="panel"><form method="dialog"><button class="close" data-t="close"></button></form><div id="panel-content"></div></dialog>
+<script src="content/story-data.js"></script><script src="game.js"></script>
+</body></html>

@@ -1,0 +1,2420 @@
+{
+  "version": 2,
+  "start": "01",
+  "ui": {
+    "title": "请替我活到明天",
+    "subtitle": "一部关于记忆与失去的视觉小说",
+    "chapter": "第一章 · 明天的来信",
+    "part": "完整故事 · 七章",
+    "start": "推开家门",
+    "continue": "继续上次",
+    "restart": "从头开始",
+    "save": "存档",
+    "load": "读档",
+    "history": "回看",
+    "settings": "设置",
+    "edit": "编辑文案",
+    "next": "继续",
+    "hint": "轻点补全 · 再点继续",
+    "choiceHint": "请选择你的回应",
+    "endHint": "故事结束",
+    "close": "关闭",
+    "speed": "文字速度",
+    "fontSize": "文字大小",
+    "slow": "慢",
+    "normal": "适中",
+    "fast": "快",
+    "instant": "直接显示",
+    "saved": "已保存到这台设备",
+    "loaded": "已回到上次存档",
+    "noSave": "还没有存档",
+    "storageFail": "当前环境无法保存，请保持页面打开",
+    "mother": "母亲",
+    "you": "你",
+    "handwriting": "照片背面",
+    "photo": "来信里的照片",
+    "photoHint": "照片背面的字",
+    "warning": "四点以前，别让她开门。",
+    "back": "回到标题",
+    "about": "点击画面、按空格或回车推进。",
+    "editorTitle": "文案编辑",
+    "search": "搜索内容",
+    "apply": "保存修改",
+    "export": "导出文案",
+    "import": "导入文案",
+    "reset": "恢复原稿",
+    "edited": "文案已更新",
+    "invalid": "文案文件格式不正确",
+    "confirmReset": "恢复原稿会清除这台设备上的文案修改，是否继续？",
+    "confirmRestart": "从开场重新开始？现有存档将保留。",
+    "emptyHistory": "继续阅读后，这里会留下记录。",
+    "inspect": "查看照片",
+    "endNote": "你今晚做出的回应，会被带入下一部分。",
+    "riverNote": "已记住母亲对河边那晚的说法",
+    "ringNote": "已确认银戒上的旧缺口",
+    "exportSave": "导出存档",
+    "importSave": "导入存档",
+    "titleFirst": "请替我",
+    "titleSecond": "活到明天",
+    "archive": "线索",
+    "emptyArchive": "这里会记录你在路上见过的线索。",
+    "checkpoint": "从存档 017 开始",
+    "checkpointPrompt": "从第二章末尾进入，沿用存档 017 的调查记录？",
+    "clue": "查看线索",
+    "continueChapter": "继续第二章",
+    "completed": "已通关",
+    "openingEnd": "第一部分结束",
+    "archivesTitle": "调查记录",
+    "evidenceList": "本场线索",
+    "comparePhotos": "对照两张照片",
+    "elder": "老人",
+    "child": "小女孩",
+    "man": "照相馆男人",
+    "recording": "录音",
+    "diary": "日记"
+  },
+  "nodes": {
+    "01": {
+      "text": "门缝里夹着一个信封。\n你弯腰去捡，袖口的雨水滴在了封口上。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "02",
+      "chapter": 1
+    },
+    "02": {
+      "text": "信封没有写收件人。\n里面只有一张照片。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "03",
+      "chapter": 1
+    },
+    "03": {
+      "text": "照片上，你站在母亲的遗像前。\n你身上那件外套还滴着水。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "04",
+      "evidence": "funeral-photo-first",
+      "chapter": 1
+    },
+    "04": {
+      "text": "母亲死了七年。\n七年前那场葬礼，你穿的是借来的黑色西装。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "05",
+      "evidence": "funeral-photo-first",
+      "chapter": 1
+    },
+    "05": {
+      "text": "照片里的这件外套，是你上个月才买的。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "06",
+      "evidence": "funeral-photo-first",
+      "chapter": 1
+    },
+    "06": {
+      "text": "你把照片翻过来。背面有个浅红的印戳，写着“红星照相馆”。印戳旁边是明天的日期，再往下，是一行你自己的字。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "07",
+      "chapter": 1
+    },
+    "07": {
+      "text": "四点以前，别让她开门。",
+      "speaker": "handwriting",
+      "bg": "home",
+      "next": "08",
+      "chapter": 1
+    },
+    "08": {
+      "text": "你正要再看一遍，屋里响起了水开后的声音。\n紧接着，有人把壶从炉子上提了下来。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "09",
+      "chapter": 1
+    },
+    "09": {
+      "text": "客厅没有开灯。\n厨房门口站着一个人，背对着你，正往保温瓶里倒水。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "10",
+      "chapter": 1
+    },
+    "10": {
+      "text": "她抬起右手去扶瓶口。\n细银戒磕了一下玻璃。",
+      "speaker": "narrator",
+      "bg": "home",
+      "next": "11",
+      "chapter": 1
+    },
+    "11": {
+      "text": "“回来啦？”",
+      "speaker": "mother",
+      "bg": "home",
+      "actor": "mother",
+      "next": "12",
+      "chapter": 1
+    },
+    "12": {
+      "text": "“你那双鞋踩了水，先脱在门口。”",
+      "speaker": "mother",
+      "bg": "home",
+      "actor": "mother",
+      "next": "13",
+      "chapter": 1
+    },
+    "13": {
+      "text": "你站在门口。\n这句话，你已经七年没听过了。",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "14",
+      "chapter": 1
+    },
+    "14": {
+      "text": "她把壶放下，回过头来。\n“怎么还站着？”",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "choices": [
+        {
+          "text": "问她河边那晚的事",
+          "to": "a1",
+          "flag": "river"
+        },
+        {
+          "text": "接过她手里的水瓶",
+          "to": "b1",
+          "flag": "ring"
+        }
+      ],
+      "chapter": 1
+    },
+    "a1": {
+      "text": "“河边那天……后来怎么样了？”",
+      "speaker": "you",
+      "bg": "home",
+      "actor": "mother",
+      "next": "a2",
+      "chapter": 1
+    },
+    "a2": {
+      "text": "她的手停在保温瓶盖上。\n“哪一天？”",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "a3",
+      "chapter": 1
+    },
+    "a3": {
+      "text": "“我跟你吵架，想离开家的那天。”",
+      "speaker": "you",
+      "bg": "home",
+      "actor": "mother",
+      "next": "a4",
+      "chapter": 1
+    },
+    "a4": {
+      "text": "“你嫌我管你，自己跑回家了。”",
+      "speaker": "mother",
+      "bg": "home",
+      "actor": "mother",
+      "next": "a5",
+      "chapter": 1
+    },
+    "a5": {
+      "text": "她说得很平常。\n你把照片往口袋里又塞了一点，没有继续问。",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "a6",
+      "chapter": 1
+    },
+    "a6": {
+      "text": "小房间里传来挪动凳子的声音。\n她朝那边看了一眼，先走了过去。",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "door1",
+      "chapter": 1
+    },
+    "b1": {
+      "text": "你伸手接过水瓶。\n瓶身烫得你险些松手。",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "b2",
+      "chapter": 1
+    },
+    "b2": {
+      "text": "“小心点。”\n她伸出右手，从下面托了一把。",
+      "speaker": "mother",
+      "bg": "home",
+      "actor": "mother",
+      "next": "b3",
+      "chapter": 1
+    },
+    "b3": {
+      "text": "她的银戒上有一道细小的缺口。\n是她用戒指撬罐头盖时留下的。",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "b4",
+      "chapter": 1
+    },
+    "b4": {
+      "text": "你记得那个罐头。\n你还记得她撬开以后，把第一块黄桃递给了你。",
+      "speaker": "narrator",
+      "bg": "home",
+      "actor": "mother",
+      "next": "b5",
+      "chapter": 1
+    },
+    "b5": {
+      "text": "“今天留下吃饭吧。”\n她接回水瓶，压低声音。",
+      "speaker": "mother",
+      "bg": "home",
+      "actor": "mother",
+      "next": "b6",
+      "chapter": 1
+    },
+    "b6": {
+      "text": "“小房间有人睡。走路轻一点。”",
+      "speaker": "mother",
+      "bg": "home",
+      "actor": "mother",
+      "next": "door1",
+      "chapter": 1
+    },
+    "door1": {
+      "text": "房门下面露着一条灯光。\n里面有人很轻地数数。",
+      "speaker": "narrator",
+      "bg": "hall",
+      "next": "door2",
+      "chapter": 1
+    },
+    "door2": {
+      "text": "“十五……十六……十七。”\n停了一会儿，她又从一开始。",
+      "speaker": "narrator",
+      "bg": "hall",
+      "next": "door3",
+      "chapter": 1
+    },
+    "door3": {
+      "text": "你抬手敲门。\n数数声停了。",
+      "speaker": "narrator",
+      "bg": "hall",
+      "next": "door4",
+      "chapter": 1
+    },
+    "door4": {
+      "text": "母亲走到你身后。",
+      "speaker": "narrator",
+      "bg": "hall",
+      "actor": "mother",
+      "next": "door5",
+      "conditional": {
+        "river": "母亲走到你身后。\n“门轻一点。”\n她说完，转身回厨房关火。",
+        "ring": "母亲走到你身后，手还搭在水瓶盖上。\n“她怕生。你开门慢一点。”"
+      },
+      "chapter": 1
+    },
+    "door5": {
+      "text": "门把手有一点凉。\n你握住它，停了几秒。",
+      "speaker": "narrator",
+      "bg": "hall",
+      "choices": [
+        {
+          "text": "慢慢推开门",
+          "to": "end"
+        }
+      ],
+      "chapter": 1
+    },
+    "end": {
+      "text": "你把门推开了一条缝。\n门里的孩子抬起了头。",
+      "speaker": "narrator",
+      "bg": "bedroom",
+      "actor": "child",
+      "choices": [
+        {
+          "text": "继续第二章",
+          "to": "child-01"
+        }
+      ],
+      "chapter": 1
+    },
+    "child-01": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "小女孩坐在床沿，一只脚套着红雨靴，另一只脚光着。床单上印着一圈湿痕。",
+      "next": "child-02"
+    },
+    "child-02": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "她看见你，马上往母亲身后躲。",
+      "next": "child-03"
+    },
+    "child-03": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "child",
+      "text": "“妈妈，就是这个阿姨昨天把我推进河里的。”",
+      "next": "child-04"
+    },
+    "child-04": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你记得小时候怕水。可在她开口的一瞬间，你忽然想起自己从水里摸到一块石头，手一滑，指甲在石头上划出了声。",
+      "next": "child-05"
+    },
+    "child-05": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你低头看自己的手。十根指甲都好好的。",
+      "next": "child-06"
+    },
+    "child-06": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "女孩也在看你的手。她的目光停在你的手指上，像在等你先说话。",
+      "next": "child-07"
+    },
+    "child-07": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "child",
+      "speaker": "child",
+      "text": "“你今天还会松开吗？”她问。",
+      "next": "child-08"
+    },
+    "child-08": {
+      "chapter": 2,
+      "bg": "bedroom",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "母亲把门合上，说等孩子睡了再谈。你摸到口袋里的照片。\n那段落水的记忆来得太真了。你想先去印戳上的照相馆，问是谁洗了这张照片。",
+      "next": "street-01"
+    },
+    "street-01": {
+      "chapter": 2,
+      "bg": "apartment-stairwell",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你下到一层，想借门灯看清印戳。单元门边站着一个穿黑外套的男人。他看见你手里的相纸，叫住了你。",
+      "next": "street-02"
+    },
+    "street-02": {
+      "chapter": 2,
+      "bg": "apartment-stairwell",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“红星照相馆的相纸。背面写了明天，对吗？”",
+      "next": "street-03"
+    },
+    "street-03": {
+      "chapter": 2,
+      "bg": "apartment-stairwell",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你把照片翻到掌心里。“你怎么知道背面写了什么？”",
+      "next": "street-04"
+    },
+    "street-04": {
+      "chapter": 2,
+      "bg": "apartment-stairwell",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“我在红星洗照片。有人拿这卷底片来时，和你长得一模一样。”\n他退开一步，让出单元门。“底片还在店里，你可以自己看。”",
+      "next": "counter-01"
+    },
+    "counter-01": {
+      "chapter": 2,
+      "bg": "studio-exterior",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你认得这条街，从楼上窗户也看得见街口。你把照片收好，跟他穿过两条巷子。\n门头那颗红星，和照片背面的印戳一样。",
+      "next": "counter-02"
+    },
+    "counter-02": {
+      "chapter": 2,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "他领你进店，把一张湿照片放在柜台上。你拿出信封里的那张。两张几乎一样，只是新照片边缘，多了一只伸向相框的手。",
+      "evidence": "funeral-photo",
+      "next": "counter-03"
+    },
+    "counter-03": {
+      "chapter": 2,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你的目光停在相框边。那只手戴着一枚和母亲那枚一样的细银戒。\n“她今天还给我倒水。为什么这张照片里，她已经死了？”",
+      "next": "counter-04"
+    },
+    "counter-04": {
+      "chapter": 2,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "男人把两张照片分开，免得粘住。\n“送底片来的人也问过我这句话。她还说，今晚你会在家里遇见一个穿红雨靴的孩子。”",
+      "next": "counter-05"
+    },
+    "counter-05": {
+      "chapter": 2,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“她就在楼下等你。她说，等你见过那个孩子，就会有话想问她。”",
+      "next": "counter-06"
+    },
+    "counter-06": {
+      "chapter": 2,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你想起孩子盯着你的手。她知道的事，自己连问都没能问完。\n“我下去见她。”男人掀开柜台旁的布帘，把铁门钥匙递给你。",
+      "next": "basement-01"
+    },
+    "basement-01": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你扶着墙下到最后一级台阶，用钥匙推开铁门。\n老人坐在台灯下，等你自己走近。",
+      "next": "basement-02"
+    },
+    "basement-02": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她左眉尾有一道浅疤。你小时候摔在石阶上，眉尾也留下过一道。",
+      "next": "basement-03"
+    },
+    "basement-03": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "“楼上那张照片，是你送去洗的？”你问。\n老人点头。她把压在手肘下面的日记推到你面前。",
+      "next": "basement-04"
+    },
+    "basement-04": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "前十六页里，母亲死过，男人死过，六岁的孩子也死过。第十七页写着你今晚刚做过的事。末尾另有一行墨还没干的字。",
+      "evidence": "journal",
+      "next": "basement-05"
+    },
+    "basement-05": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "diary",
+      "text": "这一次，她会在凌晨四点杀死我。",
+      "evidence": "journal",
+      "next": "basement-06"
+    },
+    "basement-06": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "手机响了。母亲说小女孩不肯睡，一直问那个阿姨什么时候回来。",
+      "next": "basement-07"
+    },
+    "basement-07": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人按住你想回话的手。",
+      "next": "basement-08"
+    },
+    "basement-08": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“先别告诉她你在哪儿。”",
+      "next": "basement-09"
+    },
+    "basement-09": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你等电话自己断掉，然后把女孩指认你的话原样说了一遍。",
+      "next": "basement-10"
+    },
+    "basement-10": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人听完，低头合上日记。",
+      "next": "basement-11"
+    },
+    "basement-11": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“她说的是真的。”",
+      "next": "basement-12"
+    },
+    "basement-12": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她问：“她有没有说，后来是谁先松手？”\n你摇头。她的手停在抽屉拉手上。“那就听听她当时说了什么。”",
+      "next": "tape-01"
+    },
+    "tape-01": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人把一枚生锈的蝴蝶发卡放在桌上。你认得它。母亲说它掉进河里，再也找不到了。",
+      "evidence": "hairclip",
+      "next": "tape-02"
+    },
+    "tape-02": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她按下录音机。",
+      "next": "tape-03"
+    },
+    "tape-03": {
+      "chapter": 2,
+      "bg": "basement",
+      "speaker": "narrator",
+      "text": "录音机里，先是孩子说水冷。母亲答应她，有人会一直拉着她。最后，扬声器里响起一个成年女人的声音。",
+      "next": "tape-04",
+      "actor": "elder-neutral"
+    },
+    "tape-04": {
+      "chapter": 2,
+      "bg": "basement",
+      "speaker": "recording",
+      "text": "“我来吧。”",
+      "next": "tape-05",
+      "actor": "elder-neutral"
+    },
+    "tape-05": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "那声音是你的。你听得出说“来”字时那点轻微的鼻音。",
+      "next": "tape-06"
+    },
+    "tape-06": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "录音里有水声。老人立刻按停。",
+      "next": "tape-07"
+    },
+    "tape-07": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "“岸上还有谁？”你问。",
+      "next": "tape-08"
+    },
+    "tape-08": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“你听见了几个人？”",
+      "next": "tape-09"
+    },
+    "tape-09": {
+      "chapter": 2,
+      "bg": "basement",
+      "speaker": "narrator",
+      "text": "你盯着录音机。录音里有三个人开口。可在刚才闪过的那段记忆里，孩子已经在水里，岸上还立着三道人影。",
+      "next": "tape-10",
+      "actor": "elder-neutral"
+    },
+    "tape-10": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人去拿录音机。你抢先按下播放键。",
+      "next": "tape-11"
+    },
+    "tape-11": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "沙沙声里，一个孩子问：",
+      "next": "tape-12"
+    },
+    "tape-12": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "recording",
+      "text": "“姐姐，你为什么还没出生？”",
+      "next": "tape-13"
+    },
+    "tape-13": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "磁带猛地绷紧。转轮空响了两下。",
+      "evidence": "broken-tape",
+      "next": "tape-14"
+    },
+    "tape-14": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人拔掉电源。",
+      "next": "tape-15"
+    },
+    "tape-15": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人捏住断带。“这句只有第一盘录进去过。第七次我从原带上翻录下来，后来一次也没敢听到这里。”",
+      "next": "tape-16"
+    },
+    "tape-16": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "“原带锁在楼上的暗房。那盘从头到尾都在，你能听清河边还有谁。”\n她看了一眼表，把一张折起的纸塞给你。“进去以前，先读这个。”",
+      "next": "tape-17"
+    },
+    "tape-17": {
+      "chapter": 2,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "handwriting",
+      "text": "四点的时候，如果我们还在一起，你先走。",
+      "evidence": "letter",
+      "next": "darkroom-01"
+    },
+    "darkroom-01": {
+      "chapter": 3,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "纸上的字是你自己的笔迹。你想问老人是谁写的，她已经拿起钥匙。\n“等听完原带再问。离四点只剩几分钟了。”",
+      "next": "darkroom-02"
+    },
+    "darkroom-02": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她领你绕到侧门。进了暗房，她把钥匙挂在门内的钩子上。钥匙碰了两下墙。\n显影盘上方，那张带银戒的葬礼照片还没干。",
+      "evidence": "funeral-photo",
+      "next": "darkroom-03",
+      "place": "studio-before-four"
+    },
+    "darkroom-03": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "抽屉里有两盒磁带。一盒写着 07，另一盒标签空白。旁边的底片袋被水洇湿了。\n老人正要翻看空白那盒，门外响了一声。",
+      "next": "darkroom-04",
+      "place": "studio-before-four"
+    },
+    "darkroom-04": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "门外响起脚步。来人走到侧门边，停了停，又往旁边挪了半步，像在让谁先过去。",
+      "next": "darkroom-05",
+      "place": "studio-before-four"
+    },
+    "darkroom-05": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "脚步停在侧门外。老人一手碰到灯绳，一手按住还开着的抽屉。\n“是先拿东西，还是关灯等她走？”",
+      "next": "darkroom-06",
+      "place": "studio-before-four"
+    },
+    "darkroom-06": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“这次，你说了算。”",
+      "choices": [
+        {
+          "text": "拿走原带，带老人撤离",
+          "to": "route-a-01"
+        },
+        {
+          "text": "把底片放上灯箱",
+          "to": "route-b-01"
+        },
+        {
+          "text": "关灯，听门外的人说话",
+          "to": "route-c-01"
+        },
+        {
+          "text": "拿上钥匙，独自离开",
+          "to": "route-d-01"
+        }
+      ],
+      "place": "studio-before-four"
+    },
+    "outcome-a1-01": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你听见母亲说“麻烦你拿一下”，随后有一阵衣料摩擦。一个陌生男人应了一声。成年女人刚说完“我来吧”，老人如约按停，把随身听交给你。",
+      "evidence": "original-tape",
+      "branch": "a1",
+      "next": "outcome-a1-02"
+    },
+    "outcome-a1-02": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你知道了当时还有一个持录音机的人，并保留整盘原带。",
+      "evidence": "original-tape",
+      "next": "invest-a-01"
+    },
+    "outcome-a2-01": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人沉默了一会儿，说：“我怕你去找六岁的你。她每次听见你说‘我来’，都以为你真的知道怎么救她。”她把未播放的原带还给你。",
+      "evidence": "original-tape",
+      "branch": "a2",
+      "next": "outcome-a2-02"
+    },
+    "outcome-a2-02": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你知道老人一直试图阻止什么，录音内容仍待核实。",
+      "evidence": "original-tape",
+      "next": "invest-a-01"
+    },
+    "route-a-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人掀开空白磁带的盒盖。里面有两道交叉的划痕。她朝你点头。",
+      "evidence": "original-tape",
+      "next": "route-a-02"
+    },
+    "route-a-02": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你取下钥匙，等脚步绕到前门，和她一起钻进街对面的门廊。",
+      "next": "route-a-03"
+    },
+    "route-a-03": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "四点整，街灯灭了一盏。老人从外套里拿出一台随身听，分给你一只耳机。",
+      "evidence": "player",
+      "next": "route-a-04"
+    },
+    "route-a-04": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“听到有人说‘我来吧’，我就停。”",
+      "next": "route-a-05"
+    },
+    "route-a-05": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“你怕我听完去找谁？”",
+      "next": "route-a-06"
+    },
+    "route-a-06": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她合上盖子。",
+      "next": "route-a-07"
+    },
+    "route-a-07": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“你先听她把录音机交给了谁。”",
+      "choices": [
+        {
+          "text": "把停止键交给她",
+          "to": "outcome-a1-01"
+        },
+        {
+          "text": "让她先回答",
+          "to": "outcome-a2-01"
+        }
+      ]
+    },
+    "outcome-b1-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "你翻到底，看到拍摄日期是 2006 年 6 月 18 日，取件人签的是母亲的名字。你抄下日期，带走底片。等你推门出去，巷口已经空了。",
+      "evidence": "registry",
+      "branch": "b1",
+      "next": "invest-b1-01"
+    },
+    "outcome-b2-01": {
+      "chapter": 3,
+      "bg": "studio-exterior",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人在巷口停下，让你把围巾搭回她肩上。“那只靴子是我脱的。”她说完才补了一句，“我六岁的时候。”底片仍留在灯箱上，你也没有拿到拍摄日期。",
+      "evidence": "scarf",
+      "branch": "b2",
+      "next": "invest-b2-01"
+    },
+    "route-b-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "你在暗房打开灯箱。底片上，三号桥的石阶边搁着一只红雨靴。你盯着它，记起湿袜子贴在脚心的感觉。",
+      "evidence": "bridge-negative",
+      "next": "route-b-02"
+    },
+    "route-b-02": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "老人伸手挡住灯箱。“够了。”",
+      "next": "route-b-03"
+    },
+    "route-b-03": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "你多看了一眼。回过头时，侧门半开，椅背上只剩她的围巾。",
+      "evidence": "scarf",
+      "next": "route-b-04"
+    },
+    "route-b-04": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "四点整，你把袋子翻过来。背面的铅笔字写着“架 17”。墙边的第十七格塞着一摞蓝色复写取件联。",
+      "evidence": "registry",
+      "next": "route-b-05"
+    },
+    "route-b-05": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "巷口传来老人咳嗽的声音。她还没走远。",
+      "choices": [
+        {
+          "text": "留下查取件联",
+          "to": "outcome-b1-01"
+        },
+        {
+          "text": "拿起围巾追出去",
+          "to": "outcome-b2-01"
+        }
+      ]
+    },
+    "outcome-c1-01": {
+      "chapter": 3,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你找到一扇能推开的窄窗。回暗房带老人走时，你从玻璃上看见侧门外有个人戴着湿兜帽，右手攥着钥匙。你没看清脸。两人从前厅窗户出去。",
+      "branch": "c1",
+      "next": "invest-c1-01"
+    },
+    "outcome-c2-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "说到“回来”，老人打断你：“那句话后面还有一句。我说，等你在岸上喊我。”她比你早知道这句承诺。你拉她去前厅，一起从窗户离开。",
+      "branch": "c2",
+      "next": "invest-c2-01"
+    },
+    "route-c-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你覆上老人的手，一起拉下灯绳。",
+      "effect": "lights-out",
+      "next": "route-c-02"
+    },
+    "route-c-02": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "门外有人说：“姐姐，你答应过我。你说我喊你的时候，你就会回来。”",
+      "effect": "lights-out",
+      "next": "route-c-03"
+    },
+    "route-c-03": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人捂住你的嘴。你差一点就答应了。",
+      "effect": "lights-out",
+      "next": "route-c-04"
+    },
+    "route-c-04": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "四点整，你拉亮红灯，发现钩子空了。门缝里垂着一截弯成钩的细铁丝。",
+      "next": "route-c-05"
+    },
+    "route-c-05": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人捏着通往前厅的布帘，说正门的卷帘能从里面拉开。链条一响，街上都听得见。",
+      "choices": [
+        {
+          "text": "先去前厅检查卷帘",
+          "to": "outcome-c1-01"
+        },
+        {
+          "text": "留下，原样复述那句承诺",
+          "to": "outcome-c2-01"
+        }
+      ]
+    },
+    "outcome-d1-01": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "照相馆男人站在那里，指节还贴着门框。他把一张取件联放到你脚边。“老人要我等你出来。你现在过去，她就得等两个人了。”你拿到三号桥的取件联。",
+      "evidence": "registry",
+      "branch": "d1",
+      "next": "outcome-d1-02"
+    },
+    "outcome-d1-02": {
+      "chapter": 3,
+      "bg": "porch",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "老人下落未明。",
+      "evidence": "registry",
+      "next": "invest-d1-01"
+    },
+    "outcome-d2-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "speaker": "narrator",
+      "text": "你找到老人留下的围巾，以及墙脚一串沾水的小脚印。椅子是空的。桌上压着一张写有“三号桥”的取件联。你用随身带的纸把号码拓下来，沿脚印离开。",
+      "evidence": "scarf",
+      "branch": "d2",
+      "next": "invest-d2-01"
+    },
+    "route-d-01": {
+      "chapter": 3,
+      "bg": "darkroom",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你从钩子上取下钥匙，等脚步走远，出了侧门。老人没拦你。她把椅子拉到显影台边，像是准备坐下来等人。",
+      "evidence": "key",
+      "next": "route-d-02"
+    },
+    "route-d-02": {
+      "chapter": 3,
+      "bg": "porch",
+      "speaker": "narrator",
+      "text": "街对面，你发现纸条折痕里还藏着一句。",
+      "evidence": "letter",
+      "next": "route-d-03"
+    },
+    "route-d-03": {
+      "chapter": 3,
+      "bg": "porch",
+      "speaker": "handwriting",
+      "text": "要是我没出来，别在门口喊我的名字。",
+      "evidence": "letter",
+      "next": "route-d-04"
+    },
+    "route-d-04": {
+      "chapter": 3,
+      "bg": "porch",
+      "speaker": "narrator",
+      "text": "四点整，橱窗的红灯灭了。有人在玻璃后面擦出一小块干净地方。擦得很低，像是刚够一个孩子露脸。",
+      "effect": "window-out",
+      "next": "route-d-05"
+    },
+    "route-d-05": {
+      "chapter": 3,
+      "bg": "porch",
+      "speaker": "narrator",
+      "text": "玻璃上敲了一下。第二声却来自你身后的门廊。",
+      "effect": "window-out",
+      "choices": [
+        {
+          "text": "转身看门廊",
+          "to": "outcome-d1-01"
+        },
+        {
+          "text": "用钥匙折回侧门",
+          "to": "outcome-d2-01"
+        }
+      ]
+    },
+    "invest-a-01": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "天没亮。老人带你去街角值夜班的小店借插座，自己坐在靠门的凳子上。你换上店员给的电池，把随身听放到你们两人都够得着的位置。",
+      "evidence": "player",
+      "next": "invest-a-02"
+    },
+    "invest-a-02": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人把手从停止键上收了回来。“这次你听完。听见落水，也先别关。”",
+      "evidence": "player",
+      "next": "invest-a-03"
+    },
+    "invest-a-03": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "这一次，你听见了录音交接时的声音。母亲喊那个男人“师傅”。男人回了一句：“别挡住桥底，我还在录。”",
+      "next": "invest-a-04"
+    },
+    "invest-a-04": {
+      "chapter": 4,
+      "bg": "shop",
+      "speaker": "narrator",
+      "text": "你和老人各戴着一只耳机。水声之后，成年女人喘着气，叫孩子抬头。接着是一声闷响，有人把绳子扔进了河里。",
+      "next": "invest-a-05",
+      "actor": "elder-neutral"
+    },
+    "invest-a-05": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "后来，孩子咳了很久。她终于开口。",
+      "next": "invest-a-06"
+    },
+    "invest-a-06": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "recording",
+      "text": "“姐姐，你为什么还没出生？”",
+      "next": "invest-a-07"
+    },
+    "invest-a-07": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你按停。",
+      "next": "invest-a-08"
+    },
+    "invest-a-08": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“她在问谁？”",
+      "next": "invest-a-09"
+    },
+    "invest-a-09": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人把耳机摘下来。",
+      "next": "invest-a-10"
+    },
+    "invest-a-10": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“我当时也以为她在问录音里的谁。后来我看了她手里的东西。”",
+      "next": "invest-a-11"
+    },
+    "invest-a-11": {
+      "chapter": 4,
+      "bg": "shop",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她用手指比了一下。一张照片那么大。\n“我记得那张相纸。回红星找那个替我们拿录音机的人，他看过照片。”",
+      "next": "river2019-01"
+    },
+    "invest-b1-01": {
+      "chapter": 4,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你把抄下的日期拿去问照相馆男人。他把底片往窗边一举。\n“这是出事那天清早拍的。用这张底片，能进到按下快门的那一刻。”",
+      "evidence": "bridge-negative",
+      "next": "invest-b1-02"
+    },
+    "invest-b1-02": {
+      "chapter": 4,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "you",
+      "text": "“进去之后，我还能回到现在吗？”",
+      "next": "invest-b1-03"
+    },
+    "invest-b1-03": {
+      "chapter": 4,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“能进去。”他说，“能不能回来，得看进去以后做了什么。”",
+      "next": "river2019-01"
+    },
+    "invest-b2-01": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你问老人为什么认得那只雨靴。她没有回答，只说：“我带你去看。”\n在旧河堤，她指了指第三个桥墩下一块缺了角的石头。",
+      "next": "invest-b2-02"
+    },
+    "invest-b2-02": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“我脱靴子的时候，以为只要站在这儿就行。”她说，“后来大人走近，我才知道她要我做什么。”",
+      "next": "invest-b2-03"
+    },
+    "invest-b2-03": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“那个大人是我。”她说。见你没接话，她把脚收回来。\n“你一定在想，我们说的是不是你妈妈掉下去那一晚。走吧，去翻剪报。”",
+      "next": "river2019-01"
+    },
+    "invest-c1-01": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "从前厅窄窗出来，老人让你先别追。“她刚才拿了钥匙，可能会去桥下。以前她怕见人，就在那里等。”\n你们绕到三号桥，在离水远的台阶停下。",
+      "next": "invest-c1-02"
+    },
+    "invest-c1-02": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你告诉她那人拿走了钥匙。她问那个人有没有把钥匙握在掌心，还是套在手指上。你只看见她攥着，答不了更细。",
+      "next": "invest-c1-03"
+    },
+    "invest-c1-03": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人朝桥下看了一眼。“她要是愿意把钥匙还回来，我们就等她自己过来。”",
+      "next": "invest-c-shared-01"
+    },
+    "invest-c2-01": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "从窄窗出去后，你问老人知不知道门外的人会去哪。她沿着堤岸往前走。\n“要是她还记得那句话，多半会在桥边等。”",
+      "next": "invest-c2-02"
+    },
+    "invest-c2-02": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你问她为什么记得后半句。她把手伸进袖口，半天没拿出来。",
+      "next": "invest-c2-03"
+    },
+    "invest-c2-03": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“因为话是我说的。”",
+      "next": "invest-c2-04"
+    },
+    "invest-c2-04": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你坐到她旁边。",
+      "next": "invest-c2-05"
+    },
+    "invest-c2-05": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“你还想让她回来吗？”",
+      "next": "invest-c2-06"
+    },
+    "invest-c2-06": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“我想让她以后可以喊别人。”她说。",
+      "next": "invest-c-shared-01"
+    },
+    "invest-c-shared-01": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "桥下响起脚步。一个小孩从桥墩旁探出头。老人没有往前走。她蹲下来，把自己的两只手摊开，放在孩子看得见的地方。",
+      "companion": "child",
+      "next": "invest-c-shared-02"
+    },
+    "invest-c-shared-02": {
+      "chapter": 4,
+      "bg": "bridge-current",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "孩子把钥匙放在石阶上，退回桥墩后面。你等她走远才去捡。\n老人看着钥匙说：“你刚才问的是她。现在我们回去，看看当年究竟是谁落了水。”",
+      "evidence": "key",
+      "next": "river2019-01"
+    },
+    "invest-d1-01": {
+      "chapter": 4,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你拿取件联去找男人。他带你进了照相馆前厅，从柜台下面取出一张刚显影的照片。画面上是地下室铁门。老人坐在门槛上，双手空着。",
+      "evidence": "elder-door-photo",
+      "next": "invest-d1-02"
+    },
+    "invest-d1-02": {
+      "chapter": 4,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "you",
+      "text": "“这是什么时候拍的？”",
+      "next": "invest-d1-03"
+    },
+    "invest-d1-03": {
+      "chapter": 4,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "“明天。”他说。你把照片举近一点，发现铁门旁那块墙皮已经脱落。\n他把通往地下室的布帘掀起来。“想知道她在哪儿，可以自己去看。”",
+      "next": "invest-d1-04"
+    },
+    "invest-d1-04": {
+      "chapter": 4,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你赶到地下室。铁门半掩，老人坐在门槛上，双手空着。你把照片贴近门框，连她脚边那道水痕都对得上。",
+      "next": "invest-d1-05"
+    },
+    "invest-d1-05": {
+      "chapter": 4,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "“你看到了？”她问。你点点头。\n她扶着门框站起来，和你一起沿台阶上楼。",
+      "next": "river2019-01"
+    },
+    "invest-d2-01": {
+      "chapter": 4,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你带着围巾回到地下室。铁门半掩，门槛上有一道刚擦过的水迹。老人坐在台灯边，把一张湿照片夹到绳子上。那张照片拍的就是她现在坐的位置。",
+      "evidence": "elder-door-photo",
+      "next": "invest-d2-02"
+    },
+    "invest-d2-02": {
+      "chapter": 4,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“我在对街等你。”你说。",
+      "next": "invest-d2-03"
+    },
+    "invest-d2-03": {
+      "chapter": 4,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“我知道。”她说，“我没让那孩子替我出去。”",
+      "next": "invest-d2-04"
+    },
+    "invest-d2-04": {
+      "chapter": 4,
+      "bg": "basement",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你这才看见她脚边那只红雨靴。老人捡起靴子，往楼梯口走。\n“你一路追的是这个孩子。你妈妈那晚的事，上去看剪报，我再跟你说。”",
+      "next": "river2019-01"
+    },
+    "river2019-01": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你在照相馆柜台边坐下，把两场落水分开问。男人先翻出一张 2019 年的旧报。\n上面写着，十九岁女子获救，一名成年女性溺亡。",
+      "evidence": "newspaper",
+      "next": "river2019-02"
+    },
+    "river2019-02": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "获救者的名字被遮住，时间和地点清清楚楚。",
+      "evidence": "newspaper",
+      "next": "river2019-03",
+      "conditional": {
+        "river": "母亲今晚说，你那天自己跑回家了。剪报上的时间，让你想起她抓住你袖口的那一刻。",
+        "ring": "你刚刚还看见银戒上的缺口。可报纸上印着 2019 年，你记得那只戴戒指的手在河堤上抓过你的袖子。"
+      }
+    },
+    "river2019-03": {
+      "chapter": 5,
+      "bg": "river2019",
+      "actor": "hero-19",
+      "speaker": "narrator",
+      "text": "隔着这张旧报纸，你想起了 2019 年那个晚上。\n母亲发现你买了离城的车票，一路追到河堤。",
+      "companion": "mother-42",
+      "next": "river2019-04",
+      "effect": "memory"
+    },
+    "river2019-04": {
+      "chapter": 5,
+      "bg": "river2019",
+      "actor": "mother-42",
+      "speaker": "narrator",
+      "text": "她在河堤上抓你袖子。你回身甩手。她踩空了。",
+      "effect": "memory",
+      "next": "river2019-05"
+    },
+    "river2019-05": {
+      "chapter": 5,
+      "bg": "river2019",
+      "speaker": "narrator",
+      "text": "你跳下去，抓住过她。后来有人把你从水里捞起来。你醒过来第一件事，是问那个人有没有同时抓住她。",
+      "effect": "memory",
+      "next": "river2019-06"
+    },
+    "river2019-06": {
+      "chapter": 5,
+      "bg": "river2019",
+      "actor": "hero-19",
+      "speaker": "narrator",
+      "text": "你这些年总记得他摇头。现在你记起了另一件事。他摇头以后，把自己的外套盖在了你身上。那件外套有一股显影药水味。",
+      "companion": "studio-man",
+      "effect": "memory",
+      "nextByBranch": {
+        "a1": "find-negative-01",
+        "a2": "find-negative-01",
+        "b1": "bring-negative-01",
+        "b2": "find-negative-01",
+        "c1": "find-negative-01",
+        "c2": "find-negative-01",
+        "d1": "find-negative-01",
+        "d2": "find-negative-01"
+      }
+    },
+    "bring-negative-01": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "男人翻动剪报，你才回过神。你把带回来的底片放到柜台上。他对过拍摄日期和架号，把底片收进旧相框。",
+      "evidence": "registry",
+      "next": "river2006-01"
+    },
+    "find-negative-01": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "男人合上剪报，你才回过神。他从暗房灯箱取来底片，对过登记簿上的拍摄日期和架号，把底片收进旧相框。",
+      "evidence": "registry",
+      "next": "river2006-01"
+    },
+    "river2006-01": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“你十九岁那年第一次进这家店。”他说，“后来真正回片，是 2020 年。你从这张底片进去，以为能把她带走。”",
+      "next": "river2006-02"
+    },
+    "river2006-02": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "you",
+      "text": "“带到哪儿？”",
+      "next": "river2006-03"
+    },
+    "river2006-03": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“带到一个你醒来，她还在厨房烧水的地方。”",
+      "next": "river2006-04"
+    },
+    "river2006-04": {
+      "chapter": 5,
+      "bg": "bridge-morning",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "顺着他的讲述，你眼前浮现出 2006 年的三号桥。\n那时的母亲二十九岁，身边站着六岁的你。",
+      "companion": "child",
+      "effect": "memory",
+      "next": "river2006-05",
+      "place": "old-branch"
+    },
+    "river2006-05": {
+      "chapter": 5,
+      "bg": "bridge-morning",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "那次回片后，长大后的你留在那个分支，找不到回去的路。母亲相信，只要两个你在河边同时遇险，就能把你送回去。",
+      "companion": "child",
+      "effect": "memory",
+      "next": "river2006-06",
+      "place": "old-branch"
+    },
+    "river2006-06": {
+      "chapter": 5,
+      "bg": "bridge",
+      "speaker": "narrator",
+      "text": "孩子后来自己脱了一只靴子。她以为只要照做，两个大人就都能回家。你答应抓住她，真的抓住过，后来还是松了手。照相馆男人扔下绳子，孩子被拉了上来。",
+      "effect": "memory",
+      "next": "river2006-07"
+    },
+    "river2006-07": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "男人在柜台上摊开登记簿，你重新看向纸页。\n页眉的 1999 年 6 月 17 日，是旧卷的启用日期。复印时，页眉和同页的旧出生登记被一起截了进去。",
+      "evidence": "registry",
+      "next": "river2006-08"
+    },
+    "river2006-08": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "那份出生登记属于旧卷，和这段录音的孩子无关。翻到背面，才有 2006 年的实际收录栏。男人把正反两页摊开给你看。",
+      "evidence": "registry",
+      "next": "river2006-09"
+    },
+    "river2006-09": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "架号 17 指向底片的存放位置，录音档案 07 是磁带的编号。",
+      "evidence": "registry",
+      "next": "river2006-10"
+    },
+    "river2006-10": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "you",
+      "text": "“她说我还没出生。”你说。",
+      "next": "river2006-11"
+    },
+    "river2006-11": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人把孩子当时攥着的那张照片放在桌上。照片里的成人长着你的脸。背面写着未来的拍摄日期。",
+      "evidence": "future-portrait",
+      "next": "river2006-12"
+    },
+    "river2006-12": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“她问的是照片上的姐姐。”老人说，“那时候，这个长大后的你还没有拍下那张照片。她听我们说过‘照片里的人还没出生’，就记住了。”",
+      "next": "river2006-13"
+    },
+    "river2006-13": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你一直以为那句话是一个谜语。现在你记起六岁时的自己也是这样，听大人说一句没听懂的话，先记在心里，等那个人出现了再问。",
+      "next": "truth-01"
+    },
+    "truth-01": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人承认，她是第一次回片的人。十六次干预都从她手上开始。她曾把重复发生的事情按日期写下来，后来发现每次回来，日记上都会多出自己没有写过的一页。",
+      "evidence": "journal",
+      "next": "truth-02"
+    },
+    "truth-02": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你是第十七条分支里长到二十六岁的人。你有自己过过的日子，也被回片带进了几段属于其他人的记忆。",
+      "next": "truth-03"
+    },
+    "truth-03": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“我从没让你替我活。”你说。",
+      "next": "truth-04"
+    },
+    "truth-04": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“我知道。”老人说，“我以前每次都觉得，只要妈妈还活着，少掉的那一段总有人能补回去。”",
+      "next": "truth-05"
+    },
+    "truth-05": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你想起母亲那通没说完的电话，拨了回去。\n“她还在等我吗？你带她来红星吧。我有几句话，想当着她的面问。”",
+      "next": "truth-06"
+    },
+    "truth-06": {
+      "chapter": 5,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "过了一会儿，门口响起母亲的声音。她说粥还热，问你们要不要吃。\n老人把日记合上，给门口让了个位置。“进来吧。我们也有话要说。”",
+      "next": "frame-01"
+    },
+    "frame-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "母亲放下包着布的搪瓷碗。孩子站在她身后，手还揪着她的袖口。\n你把葬礼照片转过来。母亲盯着遗像看了很久，才伸手把孩子拉近。",
+      "companion": "child",
+      "next": "frame-02"
+    },
+    "frame-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "mother",
+      "speaker": "mother",
+      "text": "“你们谁能先告诉我，她明天还在不在？”",
+      "next": "frame-03"
+    },
+    "frame-03": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你刚想说起那只戴银戒的手，孩子已经松开了母亲的袖口。\n她认出柜台上的旧相框，踮脚把它拿了下来。",
+      "next": "frame-04"
+    },
+    "frame-04": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人把日记翻到最后一页。原先那句“四点杀死我”后面，慢慢显出一截字。",
+      "evidence": "journal",
+      "next": "frame-05"
+    },
+    "frame-05": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "diary",
+      "text": "她以为这样，妈妈就不会走。",
+      "next": "frame-06"
+    },
+    "frame-06": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "窗边的小女孩紧紧攥着一个相框。你看见后面的铁片已经掰开了。相框里放的正是三号桥底片。",
+      "evidence": "frame",
+      "next": "frame-07"
+    },
+    "frame-07": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "男人没伸手去夺相框。他把矮凳挪到孩子面前，让她坐下，自己蹲在一旁。",
+      "companion": "child",
+      "next": "frame-08"
+    },
+    "frame-08": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "man",
+      "text": "“你想去哪一天？”",
+      "next": "frame-09"
+    },
+    "frame-09": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "child",
+      "text": "“去姐姐还能抓住我的那天。”她说。",
+      "next": "frame-10"
+    },
+    "frame-10": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "她说完，眼睛一直看着老人。\n“我把它打开，你就能回去重新拉住我了。那天妈妈就不会走，对吗？”",
+      "companion": "elder-neutral",
+      "next": "frame-11"
+    },
+    "frame-11": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "老人扶住桌沿。\n“我上次回来，连自己的手都认不出来了。”她说，“再回一次，我不知道还能不能回来。”",
+      "companion": "child",
+      "next": "frame-12"
+    },
+    "frame-12": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你翻过葬礼照片，又望了一眼暗房的门缝。墙钟还停在四点。\n你忽然明白，照片上的“别让她开门”，说的是孩子手里的相框。",
+      "evidence": "funeral-photo-first",
+      "next": "frame-13"
+    },
+    "frame-13": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子的手已经碰到了相框背板。",
+      "evidence": "funeral-photo-first",
+      "nextByBranch": {
+        "a1": "persuade-a-01",
+        "a2": "persuade-a-01",
+        "b1": "persuade-b1-01",
+        "b2": "persuade-b2-01",
+        "c1": "persuade-c1-01",
+        "c2": "persuade-c2-01",
+        "d1": "persuade-d-01",
+        "d2": "persuade-d-01"
+      }
+    },
+    "persuade-a-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你把原带放到绳子落水、孩子咳出第一口气的地方。\n“这儿我记得。”她说。她把相框放到膝盖上。",
+      "evidence": "original-tape",
+      "next": "persuade-a-02"
+    },
+    "persuade-a-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子把相框放在膝盖上，手指一点点松开。母亲走过来，等她自己说要把相框放在哪里。",
+      "next": "last-choice-01"
+    },
+    "persuade-b1-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你告诉她，这张底片拍于当天清早。回去以后，孩子仍得等着下午那件事发生。\n“那你能在岸上等我吗？”她问。你说，你现在就可以走到她身边。",
+      "evidence": "bridge-negative",
+      "next": "persuade-b1-02"
+    },
+    "persuade-b1-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子把相框放在膝盖上，手指一点点松开。母亲走过来，等她自己说要把相框放在哪里。",
+      "next": "last-choice-01"
+    },
+    "persuade-b2-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你请老人自己把桥墩下那句话说一遍。\n孩子听见“那只靴子是我脱的”，抬头问：“那你现在还想让我脱吗？”老人摇头。",
+      "evidence": "scarf",
+      "next": "persuade-b2-02"
+    },
+    "persuade-b2-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子把相框放在膝盖上，手指一点点松开。母亲走过来，等她自己说要把相框放在哪里。",
+      "next": "last-choice-01"
+    },
+    "persuade-c1-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你把从石阶上捡回的钥匙放在她面前，问她想让谁回来。\n你等她叫了一声“姐姐”，才在离她一步远的地方蹲下。",
+      "evidence": "key",
+      "next": "persuade-c1-02"
+    },
+    "persuade-c1-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子把相框放在膝盖上，手指一点点松开。母亲走过来，等她自己说要把相框放在哪里。",
+      "next": "last-choice-01"
+    },
+    "persuade-c2-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "“等你在岸上喊我。”你把那句承诺的后半句还给她。\n她试着喊了一声“姐姐”。你走过去，在离她一步远的地方蹲下。",
+      "next": "persuade-c2-02"
+    },
+    "persuade-c2-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子把相框放在膝盖上，手指一点点松开。母亲走过来，等她自己说要把相框放在哪里。",
+      "next": "last-choice-01"
+    },
+    "persuade-d-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你把纸条展开。四点时你先走了，现在还是回来了。\n你将钥匙放在桌上。孩子听你说，以后门可以由她自己开，也可以从里面锁上。",
+      "evidence": "letter",
+      "next": "persuade-d-02"
+    },
+    "persuade-d-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子把相框放在膝盖上，手指一点点松开。母亲走过来，等她自己说要把相框放在哪里。",
+      "next": "last-choice-01"
+    },
+    "last-choice-01": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "“先放桌上。”孩子说。母亲照她的话，把相框放下。\n男人问你，要不要关掉回片的门。关了以后，你还能回到自己原来的家。",
+      "next": "last-choice-02"
+    },
+    "last-choice-02": {
+      "chapter": 6,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你也可以留下，和她们过明天。或者用这张底片去 2006 年，在孩子下水前等她。\n走进那一天，你就要在那里继续生活。",
+      "evidence": "frame",
+      "choices": [
+        {
+          "text": "把底片交还照相馆，结束回片",
+          "to": "leave-01"
+        },
+        {
+          "text": "用底片回到 2006 年，去岸上等她",
+          "to": "ending-shore-01"
+        },
+        {
+          "text": "留在这里，陪她们过完今天",
+          "to": "stay-01"
+        }
+      ]
+    },
+    "leave-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你请他关掉分支之间的连接。再回家，那里仍会留下母亲在 2019 年去世的记录。",
+      "nextByBranch": {
+        "a1": "tape-choice-01",
+        "a2": "tape-choice-01",
+        "b1": "ending-home-01",
+        "b2": "ending-home-01",
+        "c1": "ending-home-01",
+        "c2": "ending-home-01",
+        "d1": "ending-home-01",
+        "d2": "ending-home-01"
+      }
+    },
+    "tape-choice-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人看见你还拿着原带，松开了放在桌边的手。\n“你打算把它带走吗？”",
+      "evidence": "original-tape",
+      "choices": [
+        {
+          "text": "留下原带作证，把它带回去",
+          "to": "tape-keep-01"
+        },
+        {
+          "text": "把原带交给老人",
+          "to": "tape-give-01"
+        }
+      ]
+    },
+    "tape-keep-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "你把原带收好。老人把耳机绕在你手上。",
+      "next": "ending-home-01"
+    },
+    "tape-give-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "她双手接过磁带。“这一次，我自己听完。”",
+      "next": "ending-home-01"
+    },
+    "ending-home-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你把底片装进纸袋。照相馆男人没有马上收走。他把袋口留着，让你看最后一次。",
+      "evidence": "bridge-negative",
+      "next": "ending-home-02"
+    },
+    "ending-home-02": {
+      "chapter": 7,
+      "bg": "counter",
+      "speaker": "narrator",
+      "text": "照片里那只红雨靴还在石阶上。",
+      "evidence": "bridge-negative",
+      "next": "ending-home-03"
+    },
+    "ending-home-03": {
+      "chapter": 7,
+      "bg": "counter",
+      "speaker": "you",
+      "text": "“她以后会记得我吗？”你问。",
+      "next": "ending-home-04"
+    },
+    "ending-home-04": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "母亲把碗递给孩子。孩子捧住了，才转过来看你。",
+      "companion": "child",
+      "next": "ending-home-05"
+    },
+    "ending-home-05": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "child",
+      "speaker": "child",
+      "text": "“我记得你说，我可以喊别人。”",
+      "next": "ending-home-06"
+    },
+    "ending-home-06": {
+      "chapter": 7,
+      "bg": "home",
+      "speaker": "narrator",
+      "text": "你告别她们，从照相馆回到原来的家。厨房是冷的。你拿出母亲那只旧碗，盛了一碗自己煮的面。\n端出来时，你下意识喊了声“吃饭了”。",
+      "next": "ending-home-07",
+      "place": "original-home"
+    },
+    "ending-home-07": {
+      "chapter": 7,
+      "bg": "home",
+      "speaker": "narrator",
+      "text": "屋里没有人答。",
+      "next": "ending-home-08",
+      "place": "original-home"
+    },
+    "ending-home-08": {
+      "chapter": 7,
+      "bg": "home",
+      "speaker": "narrator",
+      "text": "你把碗往自己面前挪了一点，坐下，把面吃完。",
+      "next": "home-final-01",
+      "nextByVisit": {
+        "visited": "tape-keep-01",
+        "to": "tape-coda-01"
+      },
+      "place": "original-home"
+    },
+    "home-final-01": {
+      "chapter": 7,
+      "bg": "home",
+      "speaker": "narrator",
+      "text": "结局一\n《今天是今天》",
+      "ending": true,
+      "place": "original-home"
+    },
+    "tape-coda-01": {
+      "chapter": 7,
+      "bg": "home",
+      "speaker": "recording",
+      "text": "你把原带放进随身听。孩子咳了几声，岸上有人说：“扶好了。慢点上来。”",
+      "evidence": "original-tape",
+      "next": "home-final-01",
+      "place": "original-home"
+    },
+    "ending-shore-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你确认了底片上的拍摄日。照相馆男人把相框推过来。\n这一次，从 2006 年继续走下去的会是你。",
+      "evidence": "frame",
+      "next": "ending-shore-02"
+    },
+    "ending-shore-02": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "相框里的底片透出光。再睁眼时，你站在 2006 年的三号桥上。\n孩子坐在石阶边，正准备脱掉左脚的雨靴。",
+      "next": "ending-shore-03"
+    },
+    "ending-shore-03": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你在高一级的台阶坐下来。",
+      "next": "ending-shore-04"
+    },
+    "ending-shore-04": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "child",
+      "speaker": "you",
+      "text": "“今天不用下水。”你说。",
+      "next": "ending-shore-05"
+    },
+    "ending-shore-05": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "child",
+      "speaker": "child",
+      "text": "她手还握在靴口上，问：“那你怎么回家？”",
+      "next": "ending-shore-06"
+    },
+    "ending-shore-06": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "child",
+      "speaker": "you",
+      "text": "“我晚一点再想。”",
+      "next": "ending-shore-07"
+    },
+    "ending-shore-07": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "母亲从桥上下来，手里拿着一只装午饭的铁饭盒。她先看了看孩子，又看看你，问你要不要一起吃。",
+      "companion": "child",
+      "next": "ending-shore-08"
+    },
+    "ending-shore-08": {
+      "chapter": 7,
+      "bg": "bridge-morning",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你接过饭盒。孩子把靴子穿好，自己踩上来。走到最后一级，她伸出手，让你扶了一把。",
+      "next": "ending-shore-09"
+    },
+    "ending-shore-09": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "speaker": "narrator",
+      "text": "多年以后，你收到一张十九岁女孩的合照。照片里她和母亲站在车站，旁边放着一个小行李箱。女孩在背面写，她今天要去外地念书。",
+      "evidence": "station-photo",
+      "next": "ending-shore-10",
+      "place": "later-home"
+    },
+    "ending-shore-10": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "speaker": "narrator",
+      "text": "妈妈把饭塞得太多，箱子都拉不上了。",
+      "evidence": "station-photo",
+      "next": "ending-shore-11",
+      "place": "later-home"
+    },
+    "ending-shore-11": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "speaker": "narrator",
+      "text": "你把照片夹在窗边，给她回了一封信。",
+      "next": "ending-shore-12",
+      "place": "later-home"
+    },
+    "ending-shore-12": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "speaker": "narrator",
+      "text": "结局二\n《岸上》",
+      "ending": true,
+      "place": "later-home"
+    },
+    "stay-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你请他关掉回去的入口，托他往那边送一封信。你把手从相框边缘挪开。",
+      "evidence": "letter",
+      "nextByBranch": {
+        "a1": "return-key-01",
+        "a2": "return-key-01",
+        "b1": "ending-stay-01",
+        "b2": "ending-stay-01",
+        "c1": "return-key-01",
+        "c2": "return-key-01",
+        "d1": "return-key-01",
+        "d2": "return-key-01"
+      }
+    },
+    "return-key-01": {
+      "chapter": 7,
+      "bg": "counter",
+      "actor": "studio-man",
+      "speaker": "narrator",
+      "text": "你把侧门钥匙交回柜台。这一扇门，留给照相馆自己关。",
+      "evidence": "key",
+      "next": "ending-stay-01"
+    },
+    "ending-stay-01": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "男人锁上了通往原来那条时间线的门。你和她们一起沿原路回家。\n到家后，孩子在桌上摆了三只碗，数了一遍，又去拿了一只。",
+      "companion": "child",
+      "next": "ending-stay-02",
+      "place": "branch-home"
+    },
+    "ending-stay-02": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "老人坐在门口，鞋还没脱。",
+      "next": "ending-stay-03",
+      "place": "branch-home"
+    },
+    "ending-stay-03": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“我回地下室拿点东西。”她说。",
+      "next": "ending-stay-04",
+      "place": "branch-home"
+    },
+    "ending-stay-04": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“给你留饭吗？”你问。",
+      "next": "ending-stay-05",
+      "place": "branch-home"
+    },
+    "ending-stay-05": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "她想了一会儿，说留。",
+      "next": "ending-stay-06",
+      "place": "branch-home"
+    },
+    "ending-stay-06": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "mother",
+      "speaker": "narrator",
+      "text": "母亲从锅里捞起一块肉，顺手放进你碗里。女孩看见了，说她也想要。母亲又给她夹了一块。",
+      "companion": "child",
+      "next": "ending-stay-07",
+      "place": "branch-home"
+    },
+    "ending-stay-07": {
+      "chapter": 7,
+      "bg": "home",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "你们商量了半天，最后决定晚上轮流洗碗。孩子说她还够不到水槽。你去给她搬了张凳子。",
+      "companion": "mother",
+      "next": "ending-stay-08",
+      "place": "branch-home"
+    },
+    "ending-stay-08": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "actor": "elder-neutral",
+      "speaker": "narrator",
+      "text": "第二天早上，老人用自己的钥匙开门。你听见声音，从厨房探出头。她怀里抱着地下室那十六本日记。最上面放了一本新的，第一页什么也没写。",
+      "evidence": "journal",
+      "next": "ending-stay-09",
+      "place": "next-morning"
+    },
+    "ending-stay-09": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "actor": "elder-neutral",
+      "speaker": "elder",
+      "text": "“还有粥吗？”她问。",
+      "next": "ending-stay-10",
+      "place": "next-morning"
+    },
+    "ending-stay-10": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "actor": "elder-neutral",
+      "speaker": "you",
+      "text": "“有。你自己盛，我给她系鞋带。”",
+      "companion": "child",
+      "next": "ending-stay-11",
+      "place": "next-morning"
+    },
+    "ending-stay-11": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "孩子已经把一只脚踩在凳子上。你蹲下来，让她先学会打第一个结。",
+      "next": "ending-stay-12",
+      "place": "next-morning"
+    },
+    "ending-stay-12": {
+      "chapter": 7,
+      "bg": "home-morning",
+      "actor": "child",
+      "speaker": "narrator",
+      "text": "结局三\n《给明天留一把钥匙》",
+      "companion": "mother",
+      "ending": true,
+      "place": "next-morning"
+    }
+  },
+  "chapters": [
+    "第一章 · 明天的来信",
+    "第二章 · 亡者",
+    "第三章 · 四点以前",
+    "第四章 · 河边有几个人",
+    "第五章 · 两场落水",
+    "第六章 · 请替我活到明天",
+    "第七章 · 明天"
+  ],
+  "props": {
+    "funeral-photo-first": [
+      "信封里的葬礼照片",
+      "外套是你上个月才买的。照片背面有红星照相馆的印戳，以及明天的日期。"
+    ],
+    "funeral-photo": [
+      "照相馆显影的葬礼照片",
+      "相框边缘多了一只手，手上戴着细银戒。"
+    ],
+    "hairclip": [
+      "蝴蝶发卡",
+      "母亲曾说，这枚发卡掉进了河里。"
+    ],
+    "journal": [
+      "地下室日记",
+      "前十六页记着十六次干预。第十七页写下了你今晚做过的事。"
+    ],
+    "broken-tape": [
+      "录音档案 07 · 复制带",
+      "带芯在最后一句童声之后绷断。复制带留在了地下室。"
+    ],
+    "letter": [
+      "折起的约定",
+      "四点的时候，如果我们还在一起，你先走。"
+    ],
+    "original-tape": [
+      "无编号原带",
+      "磁带盒内侧有两道交叉的划痕。"
+    ],
+    "player": [
+      "随身听",
+      "一对有线耳机。停止键在播放键旁边。"
+    ],
+    "bridge-negative": [
+      "三号桥底片",
+      "旧桥、石阶，还有一只红雨靴。"
+    ],
+    "registry": [
+      "登记簿与取件联",
+      "旧城区照相馆的纸质档案。"
+    ],
+    "key": [
+      "侧门钥匙",
+      "挂在门内时，钥匙会碰到墙。"
+    ],
+    "scarf": [
+      "老人的围巾",
+      "灰褐色旧羊毛。"
+    ],
+    "elder-door-photo": [
+      "铁门前的照片",
+      "照片里，老人坐在地下室门槛上，双手空着。"
+    ],
+    "newspaper": [
+      "2019 年旧报纸",
+      "十九岁女子获救，一名成年女性溺亡。"
+    ],
+    "future-portrait": [
+      "孩子攥着的肖像",
+      "照片里是长大后的你，背面写着未来的拍摄日期。"
+    ],
+    "frame": [
+      "回片相框",
+      "相框背板的铁片已经掰开。里面是三号桥的底片。"
+    ],
+    "station-photo": [
+      "车站合照",
+      "十九岁的女孩和母亲站在车站，旁边有一只小行李箱。"
+    ]
+  },
+  "checkpoint": "tape-17",
+  "routeStatus": {
+    "entry": "记忆 32%　世界稳定 39%　老人信任 −2　母亲信任 −2",
+    "a": "记忆 32%　世界稳定 42%　老人信任 −1　母亲信任 −2",
+    "b": "记忆 38%　世界稳定 35%　老人信任 −3　母亲信任 −2",
+    "c": "记忆 34%　世界稳定 37%　老人信任 −1　母亲信任 −2",
+    "d": "记忆 32%　世界稳定 44%　老人信任 −4　母亲信任 −2"
+  },
+  "checkpointEvidence": [
+    "funeral-photo-first",
+    "funeral-photo",
+    "journal",
+    "hairclip",
+    "broken-tape",
+    "letter"
+  ],
+  "locations": {
+    "home": "家里",
+    "hall": "家中走廊",
+    "bedroom": "家里 · 小房间",
+    "apartment-stairwell": "住宅楼 · 一层",
+    "studio-exterior": "红星照相馆 · 门外",
+    "counter": "红星照相馆 · 前厅",
+    "basement": "红星照相馆 · 地下室",
+    "darkroom": "红星照相馆 · 暗房",
+    "porch": "照相馆对街 · 门廊",
+    "shop": "街角 · 值夜小店",
+    "bridge-current": "现在 · 旧河堤三号桥",
+    "river2019": "回忆 · 2019 年河堤",
+    "bridge": "往事 · 2006 年三号桥",
+    "bridge-morning": "新分支 · 2006 年三号桥",
+    "home-morning": "家里 · 清晨",
+    "studio-before-four": "03:52 · 红星照相馆暗房",
+    "old-branch": "往事 · 2006 年三号桥",
+    "original-home": "原时间线 · 家里",
+    "later-home": "新分支 · 多年以后",
+    "branch-home": "第十七条分支 · 家里",
+    "next-morning": "第十七条分支 · 次日清晨"
+  }
+}
